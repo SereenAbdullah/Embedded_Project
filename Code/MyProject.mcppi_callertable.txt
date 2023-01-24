@@ -1,0 +1,23 @@
+main
+	__CC2DW
+		____DoICP
+	UART1_Init
+	UART1_Data_Ready
+	UART1_Read
+	MoveXoneStep
+		Delay500Us
+			word2double
+				NRM3232
+					RES032
+					SETFUN32
+					FIXSIGN32
+			Compare_Double
+	MoveYoneStep
+		Delay500Us
+			word2double
+				NRM3232
+					RES032
+					SETFUN32
+					FIXSIGN32
+			Compare_Double
+interrupt

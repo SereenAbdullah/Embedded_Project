@@ -1,0 +1,6 @@
+[PROJECTS]
+Count=2
+Project0=..\Laser_Project\L2.mcppi
+Project1=MyProject.mcppi
+[ActiveProject]
+Index=1
